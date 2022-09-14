@@ -18,7 +18,7 @@ int erase(vector* vec, int ind);//É¾³ý
 void clear(vector* vec);//Çå¿Õ
 void output(vector* vec);//Êä³ö
 
-int main()
+int main0()
 {
 
 	srand(time(0));
