@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="串的实现.cpp">
+    <ClCompile Include="串的存储结构.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="串的朴素模式匹配算法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="KMP算法.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
