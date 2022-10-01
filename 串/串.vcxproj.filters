@@ -15,19 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="栈的顺序存储实现.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="栈的链式存储实现.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="队列的顺序实现.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="队列的链式存储.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="栈的应用.cpp">
+    <ClCompile Include="串的实现.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

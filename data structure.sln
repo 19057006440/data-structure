@@ -5,7 +5,11 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "顺序表", "data structure\data structure.vcxproj", "{13BF9C3C-0DE5-4A5A-85F1-7BB17ED87785}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1", "Project1\Project1.vcxproj", "{695305BE-1353-4CB7-B5C5-B6C652890E2E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表", "Project1\Project1.vcxproj", "{695305BE-1353-4CB7-B5C5-B6C652890E2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈和队列", "栈\栈.vcxproj", "{A448BF2A-CCA4-4FCC-AAFE-56608DE8C50D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "串", "串\串.vcxproj", "{395DD27D-083D-433F-8150-F7E3790EC12C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,22 @@ Global
 		{695305BE-1353-4CB7-B5C5-B6C652890E2E}.Release|x64.Build.0 = Release|x64
 		{695305BE-1353-4CB7-B5C5-B6C652890E2E}.Release|x86.ActiveCfg = Release|Win32
 		{695305BE-1353-4CB7-B5C5-B6C652890E2E}.Release|x86.Build.0 = Release|Win32
+		{A448BF2A-CCA4-4FCC-AAFE-56608DE8C50D}.Debug|x64.ActiveCfg = Debug|x64
+		{A448BF2A-CCA4-4FCC-AAFE-56608DE8C50D}.Debug|x64.Build.0 = Debug|x64
+		{A448BF2A-CCA4-4FCC-AAFE-56608DE8C50D}.Debug|x86.ActiveCfg = Debug|Win32
+		{A448BF2A-CCA4-4FCC-AAFE-56608DE8C50D}.Debug|x86.Build.0 = Debug|Win32
+		{A448BF2A-CCA4-4FCC-AAFE-56608DE8C50D}.Release|x64.ActiveCfg = Release|x64
+		{A448BF2A-CCA4-4FCC-AAFE-56608DE8C50D}.Release|x64.Build.0 = Release|x64
+		{A448BF2A-CCA4-4FCC-AAFE-56608DE8C50D}.Release|x86.ActiveCfg = Release|Win32
+		{A448BF2A-CCA4-4FCC-AAFE-56608DE8C50D}.Release|x86.Build.0 = Release|Win32
+		{395DD27D-083D-433F-8150-F7E3790EC12C}.Debug|x64.ActiveCfg = Debug|x64
+		{395DD27D-083D-433F-8150-F7E3790EC12C}.Debug|x64.Build.0 = Debug|x64
+		{395DD27D-083D-433F-8150-F7E3790EC12C}.Debug|x86.ActiveCfg = Debug|Win32
+		{395DD27D-083D-433F-8150-F7E3790EC12C}.Debug|x86.Build.0 = Debug|Win32
+		{395DD27D-083D-433F-8150-F7E3790EC12C}.Release|x64.ActiveCfg = Release|x64
+		{395DD27D-083D-433F-8150-F7E3790EC12C}.Release|x64.Build.0 = Release|x64
+		{395DD27D-083D-433F-8150-F7E3790EC12C}.Release|x86.ActiveCfg = Release|Win32
+		{395DD27D-083D-433F-8150-F7E3790EC12C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
