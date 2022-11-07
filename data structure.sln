@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "栈和队列", "栈\栈.vcx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "串", "串\串.vcxproj", "{395DD27D-083D-433F-8150-F7E3790EC12C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "树", "树\树.vcxproj", "{002AC901-32EE-4CD0-8D51-D96F7B47420C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{395DD27D-083D-433F-8150-F7E3790EC12C}.Release|x64.Build.0 = Release|x64
 		{395DD27D-083D-433F-8150-F7E3790EC12C}.Release|x86.ActiveCfg = Release|Win32
 		{395DD27D-083D-433F-8150-F7E3790EC12C}.Release|x86.Build.0 = Release|Win32
+		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Debug|x64.ActiveCfg = Debug|x64
+		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Debug|x64.Build.0 = Debug|x64
+		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Debug|x86.ActiveCfg = Debug|Win32
+		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Debug|x86.Build.0 = Debug|Win32
+		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Release|x64.ActiveCfg = Release|x64
+		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Release|x64.Build.0 = Release|x64
+		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Release|x86.ActiveCfg = Release|Win32
+		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

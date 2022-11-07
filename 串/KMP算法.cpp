@@ -2,59 +2,57 @@
 #include <stdlib.h>
 #include <iostream>
 
-#define MAXLEN 255
+const int Len = 25;
 
-typedef struct//静态数组实现
+typedef struct
 {
-	char ch[MAXLEN];
+	char ch[Len];
 	int length;
-}SString;
+}String;
 
-//KMP算法
-
-void get_next(SString T, int next[])
+void GetNextArr(String SubString, int* next)//获得next数组
 {
-	int i = 1, j = 0;
-	next[i] = 0;
-	while (i < T.length)
+	int j = 0, k = -1;
+	next[0] = -1;
+	while (j < SubString.length - 1)
 	{
-		if (j == 0 || T.ch[i] == T.ch[j])
+		if (k == -1 || SubString.ch[j] == SubString.ch[k])
 		{
-			++i;
-			++j;//若pi == pj，则next[j + 1] = next[j] + 1
-			next[i] = j;
+			++j;
+			++k;//若pj == pk，则next[k + 1] = next[k] + 1
+			next[j] = k;
 		}
 		else
 		{
 			//否则令j = next[j]，循环继续
-			j = next[j];
+			k = next[k];
 		}
 	}
 }
 
-int Index_KMP(SString S, SString T)
+int KMP(String S, String SubString)
 {
-	int i = 1, j = 1;
-	int next[T.length + 1];
-	get_next(T, next);//求模式串的next数组
-	while (i <= S.length && j <= T.length)
+	int next[Len], i = 0, j = 0;
+	GetNextArr(SubString, next);
+	while (i < S.length && j < SubString.length)
 	{
-		if (j == 0||S.ch[i] == T.ch[j])
-		{							//继续比较后续字符
-			++i; 
-			++j;
+		if (j == -1 || S.ch[i] == SubString.ch[j])
+		{
+			i++;
+			j++;
 		}
 		else
 		{
-			j = next[j];	//模式串向右移动
+			j = next[j];	//j回退
 		}
 	}
-	if (j > T.length)
+	if (j >= SubString.length)
 	{
-		return i - T.length;//匹配成功
+		return (i - SubString.length);
 	}
 	else
 	{
-		return 0;
+		return -1;
 	}
 }
+
