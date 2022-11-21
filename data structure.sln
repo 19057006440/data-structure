@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "串", "串\串.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "树", "树\树.vcxproj", "{002AC901-32EE-4CD0-8D51-D96F7B47420C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "图", "图\图.vcxproj", "{0DC285B3-D2B4-4DF9-A7D3-A7D32F2149F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Release|x64.Build.0 = Release|x64
 		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Release|x86.ActiveCfg = Release|Win32
 		{002AC901-32EE-4CD0-8D51-D96F7B47420C}.Release|x86.Build.0 = Release|Win32
+		{0DC285B3-D2B4-4DF9-A7D3-A7D32F2149F5}.Debug|x64.ActiveCfg = Debug|x64
+		{0DC285B3-D2B4-4DF9-A7D3-A7D32F2149F5}.Debug|x64.Build.0 = Debug|x64
+		{0DC285B3-D2B4-4DF9-A7D3-A7D32F2149F5}.Debug|x86.ActiveCfg = Debug|Win32
+		{0DC285B3-D2B4-4DF9-A7D3-A7D32F2149F5}.Debug|x86.Build.0 = Debug|Win32
+		{0DC285B3-D2B4-4DF9-A7D3-A7D32F2149F5}.Release|x64.ActiveCfg = Release|x64
+		{0DC285B3-D2B4-4DF9-A7D3-A7D32F2149F5}.Release|x64.Build.0 = Release|x64
+		{0DC285B3-D2B4-4DF9-A7D3-A7D32F2149F5}.Release|x86.ActiveCfg = Release|Win32
+		{0DC285B3-D2B4-4DF9-A7D3-A7D32F2149F5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
